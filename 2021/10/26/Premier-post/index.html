@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="keywords" content="Babito">
+    <meta name="keywords" content="dev log">
     <meta name="description" content="writing about things I do">
     <meta name="author" content="Baba Hagg">
     
@@ -14,15 +14,15 @@
         Babito Dev
     </title>
     
-<link rel="stylesheet" href="/omgprod/css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 
-    <link rel="shortcut icon" href="/omgprod/images/logo.svg">
+    <link rel="shortcut icon" href="/images/logo.svg">
     
-<link rel="stylesheet" href="/omgprod/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/font-awesome.min.css">
 
     <script id="hexo-configurations">
     let KEEP = window.KEEP || {};
-    KEEP.hexo_config = {"hostname":"omgprod.github.io","root":"/omgprod/","language":"fr"};
+    KEEP.hexo_config = {"hostname":"blog.brian-haggerty.dev","root":"/","language":"fr"};
     KEEP.theme_config = {"toc":{"enable":false,"number":false,"expand_all":false,"init_open":false},"style":{"primary_color":"#0066CC","avatar":"/images/avatar.svg","favicon":"/images/logo.svg","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":false,"scale":false},"first_screen":{"enable":false,"background_img":"/images/bg.svg","description":"Keep writing and Keep loving."},"scroll":{"progress_bar":{"enable":false},"percent":{"enable":false}}},"local_search":{"enable":false,"preload":false},"code_copy":{"enable":false,"style":"default"},"pjax":{"enable":false},"lazyload":{"enable":false},"version":"3.4.3"};
     KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
   </script>
@@ -60,17 +60,17 @@
                     
                         <li class="menu-item">
                             <a class=""
-                               href="/omgprod/"
+                               href="/"
                             >
-                                首页
+                                HOME
                             </a>
                         </li>
                     
                         <li class="menu-item">
                             <a class=""
-                               href="/omgprod/archives"
+                               href="/archives"
                             >
-                                归档
+                                ARCHIVES
                             </a>
                         </li>
                     
@@ -91,12 +91,12 @@
             
                 <li class="drawer-menu-item flex-center">
                     <a class=""
-                       href="/omgprod/">首页</a>
+                       href="/">HOME</a>
                 </li>
             
                 <li class="drawer-menu-item flex-center">
                     <a class=""
-                       href="/omgprod/archives">归档</a>
+                       href="/archives">ARCHIVES</a>
                 </li>
             
         </ul>
@@ -124,7 +124,7 @@
         
             <div class="article-header">
                 <div class="avatar">
-                    <img src="/omgprod/images/avatar.svg">
+                    <img src="/images/avatar.svg">
                 </div>
                 <div class="info">
                     <div class="author">
@@ -153,7 +153,7 @@
         
 
         <div class="article-content markdown-body">
-            <p>Bienvenu sur mon blog <a class="link"   target="_blank" rel="noopener" href="https://blog.brian-haggerty.dev/" >Babito-Dev<i class="fas fa-external-link-alt"></i></a>! </p>
+            <p>Bienvenu sur mon blog <a href="https://blog.brian-haggerty.dev/">Babito-Dev</a>! </p>
 <p>J’ai voulu commencé un blog pour vous faire partager un maximum d’étapes dans mes projets personnel. </p>
 <p>Pour commencer un blog, j’ai recherché sur google quel genre de technologie je pouvais utiliser, j’avais le choix entre hand-made ou choisir un framework ..</p>
 <p>Après quelques recherches, je suis tombé sur <a class="link"   target="_blank" rel="noopener" href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a> vendu comme : </p>
@@ -196,7 +196,7 @@
         </div>
         
         <div class="theme-info info-item">
-            由 <a target="_blank" href="https://hexo.io">Hexo</a> 驱动&nbsp;|&nbsp;<a class="theme-version" target="_blank" href="https://github.com/omgprod">OMGPROD</a>
+            Powered by <a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;|&nbsp;<a class="theme-version" target="_blank" href="https://github.com/omgprod">OMGPROD</a>
         </div>
         
     </div>
@@ -222,119 +222,45 @@
     
 
     <div class="right-bottom-side-tools">
-        $tools-item-width = 32px;
-$tools-item-font-size = 1.1rem;
-$tools-item-border-radius = 1px;
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
 
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
 
-.side-tools-container {
-  position: relative;
+        <li class="tools-item tool-expand-width flex-center">
+            <i class="fas fa-arrows-alt-h"></i>
+        </li>
 
-  .tools-item {
-    width: $tools-item-width;
-    height: $tools-item-width;
-    font-size: $tools-item-font-size;
-    margin-bottom: 3px;
-    cursor: pointer;
-    border-right: none;
-    border-radius: $tools-item-border-radius;
-    box-shadow: 1px 1px 3px var(--shadow-color);
-    color: var(--default-text-color);
-    background: var(--background-color);
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
 
-    i {
-      color: var(--default-text-color);
-    }
+        <!-- rss -->
+        
 
-    &:hover {
-      color: var(--background-color);
-      background: var(--primary-color);
-      box-shadow: 2px 2px 6px var(--shadow-color);
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
 
-      i {
-        color: var(--background-color);
-      }
-    }
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
 
-    +keep-tablet() {
-      width: $tools-item-width * 0.9;
-      height: $tools-item-width * 0.9;
-      font-size: $tools-item-font-size * 0.9;
-      margin-bottom: 2px;
-    }
-
-    &.rss {
-
-      a {
-        border-radius: $tools-item-border-radius;
-        width: 100%;
-        height: 100%;
-
-        &:hover {
-          color: var(--background-color);
-          background: var(--primary-color);
-          box-shadow: 2px 2px 6px var(--shadow-color);
-        }
-      }
-    }
-  }
-
-
-  .side-tools-list {
-    opacity: 0;
-    transform: translateX(100%);
-    transition-t("transform, opacity", "0, 0", "0.2, 0.2", "linear, linear");
-
-    .tool-expand-width {
-      +keep-tablet() {
-        display: none;
-      }
-    }
-
-
-    &.show {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-
-
-  .exposed-tools-list {
-
-    if (hexo-config('style.scroll.percent.enable') == true) {
-      .tool-scroll-to-top {
-        display: none;
-
-        &.show {
-          display: flex;
-        }
-
-        &:hover {
-
-          .percent {
-            display: none;
-          }
-
-          .arrow-up {
-            display: flex;
-          }
-
-        }
-
-        .arrow-up {
-          display: none;
-        }
-
-        .percent {
-          display: flex;
-          font-size: 1rem;
-        }
-
-      }
-
-    }
-  }
-}
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
 
     </div>
 
@@ -352,15 +278,15 @@ $tools-item-border-radius = 1px;
 
 
 
-<script src="/omgprod/js/utils.js"></script>
+<script src="/js/utils.js"></script>
 
-<script src="/omgprod/js/main.js"></script>
+<script src="/js/main.js"></script>
 
-<script src="/omgprod/js/header-shrink.js"></script>
+<script src="/js/header-shrink.js"></script>
 
-<script src="/omgprod/js/back2top.js"></script>
+<script src="/js/back2top.js"></script>
 
-<script src="/omgprod/js/dark-light-toggle.js"></script>
+<script src="/js/dark-light-toggle.js"></script>
 
 
 
