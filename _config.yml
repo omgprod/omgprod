@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Babito-Blog
+subtitle: 'a dev journey'
+description: 'writing about things I do'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: Brian Hagg
+language: fr
+timezone: 'Europe/Paris'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://blog.brian-haggerty.dev
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -78,7 +78,7 @@ meta_generator: true
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+date_format: DD-MM-YYYY
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
 updated_option: 'mtime'
@@ -97,9 +97,56 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+#theme: landscape
+theme: keep
+
+
+style:
+  # Theme primary color
+  primary_color: "#0066CC"
+  # Avatar (You can use local image or image external link)
+  avatar: https://upload.wikimedia.org/wikipedia/en/2/2b/Bad_Luck_Brian.jpg
+  # Favicon (You can use local image or image external link)
+  favicon: /images/logo.svg
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+
+# hexo-admin authentification
+admin:
+  username: babito
+  password_hash: $2a$10$sAXqu0CVCplCGfAQT9m5ceWjEOSsiuZbFlYqX.SmVYIRZLvitlSYu
+  secret: JamesHagg
+
+
+base_info:
+  title: Babito-Dev
+  author: Baba Hagg
+  url: https://blog.brian-haggerty.dev/
+
+
+comment:
+  enable: true
+  use: gitalk
+
+# Gitalk
+# See: https://github.com/gitalk/gitalk
+gitalk:
+  github_id: omgprod
+  repository: blog
+  client_id: 434d60204450f01c5443
+  client_secret: 25a3b218d147b545953ef3b218ee86d98db13637
+
+
+website_count:
+  # busuanzi
+  # See: http://ibruce.info/2015/04/04/busuanzi/
+  busuanzi_count:
+    enable: true
+    site_uv: true
+    site_pv: true
+    page_pv: true
