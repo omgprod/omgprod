@@ -115,10 +115,19 @@
 
 <p>On as notre blog avec notre premier post !</p>
 
+<div id="gitalk-container"></div>
+<script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script><link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css"><script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+		<script>
+		var gitalkConfig = {"clientID":"434d60204450f01c5443","clientSecret":"25a3b218d147b545953ef3b218ee86d98db13637","repo":"omgprod","owner":"omgprod","admin":"omgprod","distractionFreeMode":false};
+	    gitalkConfig.id = md5(location.pathname);
+		var gitalk = new Gitalk(gitalkConfig);
+	    gitalk.render("gitalk-container");
+	    </script>
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://omgprod.github.io/omgprod/2021/10/26/Premier-post/" data-id="ckv9za6eb0000fmtf1pdzbr1e" data-title="Commencer un blog .." class="article-share-link">Partager</a>
+      <a data-url="https://omgprod.github.io/omgprod/2021/10/26/Premier-post/" data-id="ckv9zgjii0000getfh2q7d3a9" data-title="Commencer un blog .." class="article-share-link">Partager</a>
       
       
       
