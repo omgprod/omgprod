@@ -1,4 +1,4 @@
-# Développeur-Web 
+# About me
 
 - Main Stack :
 
@@ -13,17 +13,19 @@ Basics : HTML - CSS - SASS - Javascript - PHP - PYTHON
 
 C++, C#, Python, Docker, Docker-Compose, Kubernetes, Arduino
 
-# Env
+# Work-env
 
 Linux (Mint - Parrot OS) - Windows 10
 VSCode - Visual Studio - WebStorm - PHPStorm
 
-Interessed into : 
+# Interessed into : 
 
-Reversing engeenering
-Security bypass
+- Software skills
+- Reversing engineering
+- Security bypass
 
-Private Project not available yet : 
+# Private project available soon : 
 
 GMBB - Grow my box (Arduino)
-DOFBOT - Dofus bot using open cv 
+DOFBOT - Dofus bot using open cv
+RNR - Rust (Game) No Recoil 
