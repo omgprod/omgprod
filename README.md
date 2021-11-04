@@ -1,6 +1,4 @@
-# About me
-
-- Main Stack :
+# Main Stack :
 
 - NodeJS,
 - ReactJS,
@@ -9,7 +7,7 @@
 - Feathers,
 - Express
 
-- Basic Web Stack : 
+# Basic Web Stack : 
 
 - Symphony,
 - Api Platform 
@@ -20,7 +18,7 @@
 - PHP
 - PYTHON
 
-- Others : 
+# Others : 
 
 - C++,
 - C#,
