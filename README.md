@@ -1,4 +1,4 @@
-# Main Stack :
+# :unlock: Main Stack :
 
 - NodeJS,
 - ReactJS,
@@ -7,7 +7,7 @@
 - Feathers,
 - Express
 
-# Basic Web Stack : 
+# :computer: Basic Web Stack : 
 
 - Symphony,
 - Api Platform 
@@ -18,7 +18,7 @@
 - PHP
 - PYTHON
 
-# Others : 
+# :school_satchel: Others : 
 
 - C++,
 - C#,
@@ -28,7 +28,7 @@
 - Kubernetes,
 - Arduino
 
-# Work-env
+# :octocat: Work-env
 
 - Linux (Mint - Parrot OS)
 - Windows 10
@@ -39,13 +39,13 @@
 - WebStorm
 - PHPStorm
 
-# Interessed into : 
+# :books: Interessed into : 
 
 - Software skills
 - Reversing engineering
 - Security bypass
 
-# Private project available soon : 
+# :calendar: Private project available soon : 
 
 - GMBB - Grow my box (Arduino)
 - DOFBOT - Dofus bot using open cv
