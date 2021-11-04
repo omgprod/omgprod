@@ -32,6 +32,8 @@
 
 - Linux (Mint - Parrot OS)
 - Windows 10
+- Git command line 
+- Github, Gitlab, BitBucket
 - VSCode
 - Visual Studio
 - WebStorm
