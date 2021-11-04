@@ -2,21 +2,42 @@
 
 - Main Stack :
 
-NodeJS, ReactJS, React-Native, VueJS, Vuex, Feathers, Express
+- NodeJS,
+- ReactJS,
+- React-Native,
+- VueJS, Vuex,
+- Feathers,
+- Express
 
-- Web Stack : 
+- Basic Web Stack : 
 
-Frameworks : Symphony, Api Platform 
-Basics : HTML - CSS - SASS - Javascript - PHP - PYTHON
+- Symphony,
+- Api Platform 
+- HTML
+- CSS
+- SASS
+- Javascript
+- PHP
+- PYTHON
 
 - Others : 
 
-C++, C#, Python, Docker, Docker-Compose, Kubernetes, Arduino
+- C++,
+- C#,
+- Python,
+- Docker,
+- Docker-Compose,
+- Kubernetes,
+- Arduino
 
 # Work-env
 
-Linux (Mint - Parrot OS) - Windows 10
-VSCode - Visual Studio - WebStorm - PHPStorm
+- Linux (Mint - Parrot OS)
+- Windows 10
+- VSCode
+- Visual Studio
+- WebStorm
+- PHPStorm
 
 # Interessed into : 
 
@@ -26,6 +47,6 @@ VSCode - Visual Studio - WebStorm - PHPStorm
 
 # Private project available soon : 
 
-GMBB - Grow my box (Arduino)
-DOFBOT - Dofus bot using open cv
-RNR - Rust (Game) No Recoil 
+- GMBB - Grow my box (Arduino)
+- DOFBOT - Dofus bot using open cv
+- RNR - Rust (Game) No Recoil 
