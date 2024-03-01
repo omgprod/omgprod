@@ -43,7 +43,7 @@
 # :books: Interessed into : 
 
 - Software skills
-- Reversing engineering
+- Reverse engineering
 - Security bypass
 
 # :calendar: Private project available soon : 
