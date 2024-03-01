@@ -9,8 +9,8 @@
 
 # :computer: Basic Web Stack : 
 
-- Symphony,
-- Api Platform 
+- Symfony,
+- Api-Platform 
 - HTML
 - CSS
 - SASS
@@ -30,9 +30,10 @@
 
 # :octocat: Work-env
 
-- Linux (Mint - Parrot OS)
-- Windows 10
-- Git command line 
+- Linux
+- Windows
+- Mac
+- Git
 - Github, Gitlab, BitBucket
 - VSCode
 - Visual Studio
